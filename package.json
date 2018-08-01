@@ -1,0 +1,55 @@
+{
+  "name": "datepicker-react-bootstrap-luxon",
+  "version": "0.0.1",
+  "description": "date picker widget using react, bootstrap 4 styles, and luxon immutable datetime library",
+  "author": "Michael D. Prince",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wotboy/datepicker-react-bootstrap-luxon.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "luxon",
+    "datepicker"
+  ],
+  "bugs": {
+    "url": "https://github.com/wotboy/datepicker-react-bootstrap-luxon/issues"
+  },
+  "homepage": "https://github.com/wotboy/datepicker-react-bootstrap-luxon",
+  "scripts": {
+    "devserver": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack -p --config webpack.prod.js --trace-deprecation",
+    "devbuild": "webpack --config webpack.dev.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.3",
+    "classnames": "2.2.*",
+    "luxon": "1.3.*",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "simple-line-icons": "^2.4.1",
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.3"
+  }
+}
